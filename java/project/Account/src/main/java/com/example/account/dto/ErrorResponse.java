@@ -17,6 +17,7 @@ public class ErrorResponse {
     public AccountException toAccountException() {
         this.errorCode = errorCode;
         this.errorMessage = errorMessage;
+        return new AccountException(errorCode, errorMessage);
     }
 
 }

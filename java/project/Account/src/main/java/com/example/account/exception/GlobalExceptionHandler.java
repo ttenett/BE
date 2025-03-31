@@ -41,3 +41,4 @@ public class GlobalExceptionHandler {
                 INTERNAL_SERVER_ERROR,
                 INTERNAL_SERVER_ERROR.getDescription());
 }
+}
