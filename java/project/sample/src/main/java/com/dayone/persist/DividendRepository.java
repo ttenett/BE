@@ -6,4 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class DividendRepository extends JpaRepository<DividendEntity, Long> {
+
+
+    
 }
